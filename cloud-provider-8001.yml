@@ -1,0 +1,20 @@
+﻿spring:
+  profiles:
+    active:
+      - dev
+
+---
+spring:
+  profiles: dev
+  application:
+    name: eureka-provider-01
+
+---
+spring:
+  profiles: test
+  application:
+    name: eureka-provider-02
+
+
+
+
